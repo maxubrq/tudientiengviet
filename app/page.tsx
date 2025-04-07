@@ -1,4 +1,9 @@
+import { DEFAULT_METADATA } from "@/misc/default";
 import Image from "next/image";
+
+export const metadata = {
+  ...DEFAULT_METADATA,
+};
 
 export default function Home() {
   return (
